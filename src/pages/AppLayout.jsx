@@ -9,7 +9,29 @@ const Container = styled.div`
   min-height: 100vh;
   padding: 10rem 20rem;
   overflow: hidden;
-  background-color: #faf9f7;
+  // background-color: #faf9f7;
+
+  background: hsla(40, 23%, 97%, 1);
+
+  background: radial-gradient(
+    circle,
+    hsla(40, 23%, 97%, 1) 25%,
+    hsla(351, 88%, 97%, 1) 100%
+  );
+
+  background: -moz-radial-gradient(
+    circle,
+    hsla(40, 23%, 97%, 1) 25%,
+    hsla(351, 88%, 97%, 1) 100%
+  );
+
+  background: -webkit-radial-gradient(
+    circle,
+    hsla(40, 23%, 97%, 1) 25%,
+    hsla(351, 88%, 97%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FAF9F7", endColorstr="#FEF0F2", GradientType=1 );
 
   @media (max-width: 1024px) {
     padding: 5rem 8rem;
