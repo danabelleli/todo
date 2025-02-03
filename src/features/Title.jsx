@@ -8,6 +8,11 @@ const Container = styled.div`
   background-color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   padding: 2rem 16rem;
 
   @media (max-width: 1200px) {

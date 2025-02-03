@@ -10,7 +10,7 @@ export default function Checkbox({ value, onToggle, todo }) {
           name="comments"
           type="checkbox"
           aria-describedby="comments-description"
-          className="col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-[#f5748a] checked:bg-[#f5748a] indeterminate:border-[#f5748a] indeterminate:bg-[#f5748a]focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5748a] disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto"
+          className="col-start-1 row-start-1 appearance-none rounded border border-gray-300 bg-white checked:border-[#f5748a] checked:bg-[#f5748a] indeterminate:border-[#f5748a] indeterminate:bg-[#f5748a]focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#f5748a] disabled:border-gray-300 disabled:bg-gray-100 disabled:checked:bg-gray-100 forced-colors:appearance-auto cursor-pointer"
         />
         <svg
           fill="none"
