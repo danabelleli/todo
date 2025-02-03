@@ -12,15 +12,15 @@ A cute simple app to track your daily todos.
 
 ## Demo
 
-(Optional) Add a link to a live demo or screenshots.
+![App Screenshot](/public/Screenshot.png)
 
 ## Installation
 
-In order to use the app follow the following installation steps.
+In order to use the app follow these installation steps.
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/danabelleli/todo
 
 # Navigate to the project directory
 cd your-repo
@@ -29,5 +29,5 @@ cd your-repo
 npm install  # or yarn install
 
 # Run the development server
-npm start  # or yarn start
+npm run dev  # or yarn start
 ```
