@@ -9,12 +9,35 @@ const Container = styled.div`
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 
   padding: 2rem 16rem;
+
+  @media (max-width: 1200px) {
+    padding: 2rem 10rem;
+  }
+
+  @media (max-width: 1040px) {
+    padding: 2rem 6rem;
+    height: 16rem;
+    text-align: center;
+  }
+
+  @media (max-width: 845px) {
+    padding: 2rem 4rem;
+    height: 14rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2rem 2rem;
+  }
 `;
 
 const H1 = styled.h1`
   font-family: "Jua", serif;
   text-transform: capitalize;
   font-size: 3rem;
+
+  @media (max-width: 845px) {
+    font-size: 2rem;
+  }
 `;
 
 const P = styled.p`
@@ -24,6 +47,18 @@ const P = styled.p`
   & span {
     font-weight: 600;
     font-size: 1.4rem;
+
+    @media (max-width: 845px) {
+      font-size: 1.2rem;
+    }
+  }
+
+  @media (max-width: 845px) {
+    font-size: 1.4rem;
+  }
+
+  @media (max-width: 375px) {
+    font-size: 1.2rem;
   }
 `;
 

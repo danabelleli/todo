@@ -14,6 +14,22 @@ const Container = styled.div`
 
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 1200px) {
+    padding: 2rem 10rem;
+  }
+
+  @media (max-width: 1040px) {
+    padding: 2rem 6rem;
+  }
+
+  @media (max-width: 845px) {
+    padding: 2rem 4rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2rem 2rem;
+  }
 `;
 
 const Input = styled.input`
@@ -29,6 +45,18 @@ const Input = styled.input`
 
   &:focus {
     border-bottom-color: #f24563;
+  }
+
+  @media (max-width: 1260px) {
+    width: 80%;
+  }
+
+  @media (max-width: 1160px) {
+    width: 75%;
+  }
+
+  @media (max-width: 600px) {
+    width: 70%;
   }
 `;
 

@@ -4,7 +4,7 @@ import Checkbox from "./Checkbox";
 
 function TodoItem({ todo, onToggle, onDelete }) {
   return (
-    <li className="py-4 flex items-center gap-4">
+    <li className="py-4 flex lg:items-center gap-4">
       <Checkbox value={todo.isChecked} onToggle={onToggle} todo={todo} />
       {todo.content}
       <button

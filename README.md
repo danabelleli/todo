@@ -2,7 +2,7 @@
 
 ## Description
 
-A cute simple app to track your daily todos.
+A cute simple app to track your daily todos. All todos will be saved to your local storage. Tech used: HTML, CSS, JS and React.
 
 ## Features
 
