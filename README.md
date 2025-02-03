@@ -8,7 +8,7 @@ A cute simple app to track your daily todos. All todos will be saved to your loc
 
 - Daily organizational quotes for quick motivation.
 - Add as many todos as you'd like.
-- You can check your todos as done and see which ones you checked off and which ones you haven't yet. You get to decide when to delete it off the list.
+- You can check off your todos as completed and easily see which ones are done and which are still pending. You have full control over when to remove them from the list.
 
 ## Demo
 
